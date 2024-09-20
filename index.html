@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <!--хз надо ли навигацию сейчас делать или нет-->
+    </nav>
+    <div class="container">
+        <div class="buttons">
+            <button class="generate-btn">Добавить ещё один</button> <!--превращает sscc в картинку и ставит её в sscc-list-container-->
+            <button class="remove-btn">Удалить последний</button> <!--удалить либо последний sscc, либо сделать инпут и удалять конкретный-->
+            <button class="download-btn">Скачать</button> <!--скачать sscc-list-container-->
+        </div>
+        <div class="sscc-list-container">
+            <div class="sscc" data-number="0"> <!--сделать их в ввиде массива, что бы можно было легче ими манипулировать-->
+                <input class="sscc-upperText"> <!--скопировать этот контейнер, добавить его вниз, и превратить его в картинку, либо сразу сделать картинку и засунуть её вниз-->
+                <svg id="sscc-output"></svg>
+                <input class="sscc-input">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!--хз надо ли делать футер сейчас-->
+    </footer>
+    <script src="JsBarcode.all.min.js"></script>
+    <script src="html2canvas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
