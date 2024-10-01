@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <nav>
-        <!--хз надо ли навигацию сейчас делать или нет-->
+        <!--когданибудь сделаю блять-->
     </nav>
     <div class="container">
         <div class="buttons">
             <button class="generate-btn">Добавить ещё один</button> <!--превращает sscc в картинку и ставит её в sscc-list-container-->
-            <button class="remove-btn">Удалить последний</button> <!--удалить либо последний sscc, либо сделать инпут и удалять конкретный-->
-            <button class="download-btn">Скачать</button> <!--скачать sscc-list-container-->
+            <button class="remove-btn">Удалить всё</button> <!--удалить либо последний sscc, либо сделать инпут и удалять конкретный-->
+            <button class="download-btn">Скачать всё</button> <!--скачать sscc-list-container-->
         </div>
         <div class="sscc-list-container">
-            <div class="sscc" data-number="0"> <!--сделать их в ввиде массива, что бы можно было легче ими манипулировать-->
-                <input class="sscc-upperText"> <!--скопировать этот контейнер, добавить его вниз, и превратить его в картинку, либо сразу сделать картинку и засунуть её вниз-->
-                <svg id="sscc-output"></svg>
-                <input class="sscc-input">
+            <div class="sscc-buttons-container">
+                <button class="deleteBtn" data-number="0">УДАЛИТЬ</button>
+            </div>
+            <div class="ssccS">
+                <div class="sscc" data-number="0">
+                    <input placeholder="ОООО РГАНИКА" class="sscc-upperText">
+                    <svg class="sscc-output"></svg>
+                    <input placeholder="2281337" class="sscc-input">
+                </div>
             </div>
         </div>
     </div>
     <footer>
-        <!--хз надо ли делать футер сейчас-->
+        <!--когданибудь сделаю блять-->
     </footer>
     <script src="JsBarcode.all.min.js"></script>
     <script src="html2canvas.js"></script>

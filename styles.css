@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: greenyellow;
+    width: 60%;
+    height: 100%;
+    padding: 1%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 33%;
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+.sscc-list-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    background-color: blue;
+}
+
+.ssccS{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+
+.sscc{
+    border: 3px black solid;
+    padding: 1vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 40vw;
+    height: 15vh;
+}
+
+.sscc-buttons-container{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.deleteBtn{
+    padding: 1vh;
+    width: 100%;
+    height: 15vh;
+}
+
+.sscc-output{
+    width: 90%;
+    height: 80%;
+}
